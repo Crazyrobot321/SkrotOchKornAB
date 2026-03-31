@@ -1,0 +1,99 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontakt</title>
+</head>
+<body>
+    <table border="1">
+         <tr>
+            <th></th>
+            <th>Nisse</th>
+            <th>Pia</th>
+            <th>Sara</th>
+            <th>Bosse</th>
+        </tr>
+        <tr>
+            <th>Bild</th>
+            <th>
+                <img src="../images/per1.jpg" width="100">
+            </th>
+            <th>
+                <img src="../images/per2.jpg" width="100">
+            </th>
+            <th>
+                <img src="../images/per3.jpg" width="100">
+            </th>
+            <th>
+                <img src="../images/per4.jpg" width="100">
+            </th>
+        </tr>
+        <tr>
+            <th>Email</th>
+            <th>
+                <a href="mailto:Nisse@skrotab.com">Kontakta</a>
+            </th>
+            <th>
+                <a href="mailto:Pia@skrotab.com">Kontakta</a>
+            </th>
+            <th>
+                <a href="mailto:Sara@skrotab.com">Kontakta</a>
+            </th>
+            <th>
+                <a href="mailto:Bosse@skrotab.com">Kontakta</a>
+            </th>
+        </tr>
+        </tr>
+    </table>
+    <br><br><br>
+    <form action="http://primat.se/services/sendform.aspx?xid=form&xmail=test@123.com" method="post">
+        <!-- Contact Information -->
+        <div class="contactinfo" style="background-color: lightseagreen;">
+            <label for="name">Namn:</label>
+            <input type="text" id="name" name="name"><br><br>
+            <label for="adress">Adress:</label>
+            <input type="text" id="adress" name="address"><br><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email"><br><br>
+            <label for="phone">Telefon:</label>
+            <input type="text" id="phone" name="phone"><br><br>
+        </div>
+        <!-- Customer Type -->
+        <div class="customertype" style="background-color: lightblue;">
+            <input type="radio" id="type" name="type" value="customer">
+            <label for="type">Privat</label>
+            <input type="radio" id="type" name="type" value="employee">
+            <label for="type">Företag</label><br><br>
+        </div>
+        <!-- Size of company -->
+        <div class="companysize" style="background-color: lightgreen;">
+            <input type="radio" id="size" name="size" value="private">
+            <label for="size">---</label>
+            <input type="radio" id="size" name="size" value="small">
+            <label for="size">1-100 anställda</label>
+            <input type="radio" id="size" name="size" value="medium">
+            <label for="size">101-1000 anställda</label>
+            <input type="radio" id="size" name="size" value="large">
+            <label for="size">Mer än 1000 anställda</label><br><br>
+            <label for="message">Meddelande:</label><br>
+            <textarea id="message" name="message"></textarea><br><br>
+        </div>
+        <!--  Checkboxes-->
+        <div class="checkboxes" style="background-color: lightsalmon;">
+            <input type="checkbox" name="newsletter" value="ja">
+            <input type="hidden" name="newsletter" value="nej">
+            <label for="newsletter"> Do you want newsletter?</label><br>
+            <input type="checkbox" name="returnPhone" value="ja">
+            <input type="hidden" name="returnPhone" value="nej">
+            <label for="returnPhone"> Do you want us to call you back?</label><br>
+        </div>
+        <input type="submit" value="Skicka">
+    </form>
+    <br>
+    <br>
+    <a href="../index.html">Startsida</a>
+    <a href="contactus.html">Kontakta oss</a>
+    <a href="products.html">Produkter</a>
+    <a href="media.html">Media</a>
+</body>
+</html>
