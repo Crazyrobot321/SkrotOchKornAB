@@ -3,9 +3,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kontakt</title>
+    <link rel="stylesheet" href="../css/styles.css">
 </head>
 <body>
-    <table border="1">
+    <table>
          <tr>
             <th></th>
             <th>Nisse</th>
@@ -48,7 +49,7 @@
     <br><br><br>
     <form action="http://primat.se/services/sendform.aspx?xid=form&xmail=test@123.com" method="post">
         <!-- Contact Information -->
-        <div class="contactinfo" style="background-color: lightseagreen;">
+        <div class="contactinfo">
             <label for="name">Namn:</label>
             <input type="text" id="name" name="name"><br><br>
             <label for="adress">Adress:</label>
@@ -59,14 +60,14 @@
             <input type="text" id="phone" name="phone"><br><br>
         </div>
         <!-- Customer Type -->
-        <div class="customertype" style="background-color: lightblue;">
+        <div class="customertype">
             <input type="radio" id="type" name="type" value="customer">
             <label for="type">Privat</label>
             <input type="radio" id="type" name="type" value="employee">
             <label for="type">Företag</label><br><br>
         </div>
         <!-- Size of company -->
-        <div class="companysize" style="background-color: lightgreen;">
+        <div class="companysize">
             <input type="radio" id="size" name="size" value="private">
             <label for="size">---</label>
             <input type="radio" id="size" name="size" value="small">
@@ -79,7 +80,7 @@
             <textarea id="message" name="message"></textarea><br><br>
         </div>
         <!--  Checkboxes-->
-        <div class="checkboxes" style="background-color: lightsalmon;">
+        <div class="checkboxes">
             <input type="checkbox" name="newsletter" value="ja">
             <input type="hidden" name="newsletter" value="nej">
             <label for="newsletter"> Do you want newsletter?</label><br>
@@ -87,13 +88,15 @@
             <input type="hidden" name="returnPhone" value="nej">
             <label for="returnPhone"> Do you want us to call you back?</label><br>
         </div>
-        <input type="submit" value="Skicka">
+        <input class="submit-btn" type="submit" value="Skicka">
     </form>
     <br>
     <br>
-    <a href="../index.html">Startsida</a>
-    <a href="contactus.html">Kontakta oss</a>
-    <a href="products.html">Produkter</a>
-    <a href="media.html">Media</a>
+    <div class="simple-nav">
+        <a href="../index.html">Startsida</a>
+        <a href="contactus.html">Kontakta oss</a>
+        <a href="products.html">Produkter</a>
+        <a href="media.html">Media</a>
+    </div>
 </body>
 </html>

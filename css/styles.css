@@ -1,0 +1,158 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #e6edf2;
+    color: #1f2a33;
+    line-height: 1.5;
+}
+
+.menu,
+.simple-nav {
+    background-color: #f5f2dd;
+    padding: 12px;
+    border-radius: 8px;
+    margin-bottom: 16px;
+}
+
+.menu a,
+.simple-nav a {
+    color: #1f2a33;
+    text-decoration: none;
+    margin-right: 12px;
+    font-weight: 600;
+}
+
+.menu a:hover,
+.simple-nav a:hover {
+    text-decoration: underline;
+}
+
+h1 {
+    margin-top: 8px;
+}
+
+.home-image {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 8px;
+    border: 2px solid #d7dde2;
+}
+
+.intro-text {
+    font-size: 20px;
+    margin-top: 14px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #ffffff;
+}
+
+th,
+td {
+    border: 1px solid #b8c2ca;
+    padding: 8px;
+    text-align: center;
+}
+
+.contactinfo,
+.customertype,
+.companysize,
+.checkboxes {
+    padding: 12px;
+    margin-bottom: 8px;
+    border-radius: 6px;
+}
+
+.contactinfo {
+    background-color: #8fd6cd;
+}
+
+.customertype {
+    background-color: #b9dfff;
+}
+
+.companysize {
+    background-color: #bce5bc;
+}
+
+.checkboxes {
+    background-color: #f7baa7;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    max-width: 500px;
+    padding: 8px;
+    border: 1px solid #9aabb6;
+    border-radius: 4px;
+}
+
+textarea {
+    min-height: 90px;
+}
+
+.submit-btn {
+    margin-top: 8px;
+    background-color: #1f6f8a;
+    color: #ffffff;
+    border: none;
+    padding: 10px 18px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.submit-btn:hover {
+    background-color: #185b71;
+}
+
+.media-video-section {
+    background-color: #e6f2ff;
+    padding: 12px;
+    border-radius: 8px;
+}
+
+.media-frame {
+    width: 100%;
+    max-width: 100%;
+    min-height: 320px;
+    border: none;
+}
+
+.products-section {
+    background-color: #e8f5e9;
+    padding: 10px;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+.footer-box {
+    background-color: #f2f2f2;
+    padding: 10px;
+    margin-top: 12px;
+    border-radius: 8px;
+    width: 600px;
+    max-width: 100%;
+}
+
+.footer-box iframe {
+    width: 100%;
+    height: 142px;
+    border: none;
+}
+
+@media (max-width: 700px) {
+    .menu a,
+    .simple-nav a {
+        display: inline-block;
+        margin-bottom: 8px;
+    }
+}
