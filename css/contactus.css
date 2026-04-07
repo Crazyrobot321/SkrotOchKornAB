@@ -1,0 +1,98 @@
+.item3 {
+    grid-area: main;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 14px;
+    background: #fff;
+    border: 1px solid #cfd8df;
+}
+
+table th {
+    border: 1px solid #d7dfe5;
+    padding: 10px;
+    text-align: center;
+}
+
+table tr:first-child th {
+    background: #eef5fb;
+}
+
+table img {
+    width: 100px;
+    height: auto;
+    border-radius: 8px;
+}
+
+table a {
+    display: inline-block;
+    padding: 8px 12px;
+    border-radius: 999px;
+    border: 1px solid #1f6f8a;
+    background: #2c90b3;
+    color: #fff;
+    text-decoration: none;
+}
+
+form > div {
+    padding: 12px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+}
+
+form > div:nth-child(1) { background: #8fd6cd; }
+form > div:nth-child(2) { background: #b9dfff; }
+form > div:nth-child(3) { background: #bce5bc; }
+form > div:nth-child(4) { background: #f7baa7; }
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    max-width: 560px;
+    padding: 8px 10px;
+    border: 1px solid #9aabb6;
+    border-radius: 6px;
+}
+
+textarea {
+    min-height: 100px;
+    resize: vertical;
+}
+
+.submit-btn {
+    margin-top: 8px;
+    background: #f5b400;
+    color: #111;
+    border: 1px solid #6f5600;
+    padding: 10px 18px;
+    border-radius: 999px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.item5 {
+    background: #f5f2dd;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.in-iframe .item1,
+.in-iframe .item2,
+.in-iframe .item4,
+.in-iframe .item5,
+.in-iframe form,
+.in-iframe br {
+    display: none;
+}
+
+.in-iframe body {
+    display: block;
+    padding: 8px;
+}
+
+.in-iframe table {
+    margin-bottom: 0;
+}

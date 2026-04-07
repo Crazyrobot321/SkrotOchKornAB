@@ -3,9 +3,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kontakt</title>
-    <link rel="stylesheet" href="../css/styles.css">
+    <script>
+        if (window.self !== window.top) {
+            document.documentElement.classList.add("in-iframe");
+        }
+    </script>
+    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="../css/contactus.css">
 </head>
 <body>
+    <div class="item1">
+        <img src="../images/logo.png" alt="Skrot och Korn AB logotyp">
+        <h1>Skrot och Korn AB</h1>
+        <input type="search" placeholder="Sök...">
+    </div>
+    <div class="item2">
+        <a href="../index.html">Startsida</a>
+        <a href="contactus.html">Kontakta</a>
+        <a href="products.html">Produkter</a>
+        <a href="media.html">Media</a>
+    </div>
+    <div class="item3">
     <table>
          <tr>
             <th></th>
@@ -44,12 +62,10 @@
                 <a href="mailto:Bosse@skrotab.com">Kontakta</a>
             </th>
         </tr>
-        </tr>
     </table>
-    <br><br><br>
     <form action="http://primat.se/services/sendform.aspx?xid=form&xmail=test@123.com" method="post">
         <!-- Contact Information -->
-        <div class="contactinfo">
+        <div>
             <label for="name">Namn:</label>
             <input type="text" id="name" name="name"><br><br>
             <label for="adress">Adress:</label>
@@ -60,14 +76,14 @@
             <input type="text" id="phone" name="phone"><br><br>
         </div>
         <!-- Customer Type -->
-        <div class="customertype">
+        <div>
             <input type="radio" id="type" name="type" value="customer">
             <label for="type">Privat</label>
             <input type="radio" id="type" name="type" value="employee">
             <label for="type">Företag</label><br><br>
         </div>
         <!-- Size of company -->
-        <div class="companysize">
+        <div>
             <input type="radio" id="size" name="size" value="private">
             <label for="size">---</label>
             <input type="radio" id="size" name="size" value="small">
@@ -80,7 +96,7 @@
             <textarea id="message" name="message"></textarea><br><br>
         </div>
         <!--  Checkboxes-->
-        <div class="checkboxes">
+        <div>
             <input type="checkbox" name="newsletter" value="ja">
             <input type="hidden" name="newsletter" value="nej">
             <label for="newsletter"> Do you want newsletter?</label><br>
@@ -90,13 +106,15 @@
         </div>
         <input class="submit-btn" type="submit" value="Skicka">
     </form>
-    <br>
-    <br>
-    <div class="simple-nav">
-        <a href="../index.html">Startsida</a>
-        <a href="contactus.html">Kontakta oss</a>
-        <a href="products.html">Produkter</a>
-        <a href="media.html">Media</a>
+    </div>
+    <div class="item4">
+        <h2>Kontaktkanaler</h2>
+        <p>Jourtelefon: 08-123 45 67</p>
+        <p>Ordermail: order@skrotab.com</p>
+        <a href="media.html">Se maskiner i drift</a>
+    </div>
+    <div class="item5">
+        <p>Skrot och Korn AB, 2026</p>
     </div>
 </body>
 </html>

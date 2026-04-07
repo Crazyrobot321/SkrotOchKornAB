@@ -1,0 +1,19 @@
+.item3 {
+    grid-area: main;
+    background: #f5f2dd;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.item3 iframe {
+    width: 100%;
+    min-height: 420px;
+    border: none;
+    border-radius: 8px;
+}
+
+@media (max-width: 900px) {
+    .item3 iframe {
+        min-height: 260px;
+    }
+}

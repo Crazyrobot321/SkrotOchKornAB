@@ -3,64 +3,58 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Produkter</title>
-    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="../css/products.css">
 </head>
 <body>
-    <div class="simple-nav">
+    <div class="item1">
+        <img src="../images/logo.png" alt="Skrot och Korn AB logotyp">
+        <h1>Skrot och Korn AB</h1>
+        <input type="search" placeholder="Sök...">
+    </div>
+    <div class="item2">
         <a href="../index.html">Startsida</a>
-        <a href="contactus.html">Kontakta oss</a>
+        <a href="contactus.html">Kontakta</a>
         <a href="products.html">Produkter</a>
         <a href="media.html">Media</a>
     </div>
-    <div class="products-section">
-        <table>
-        <tr>
-            <th></th>
-            <th>CAT M313D</th>
-            <th>AC 40 CITY</th>
-            <th>R 500 A6x6HZ</th>
-        </tr>
-        <tr>
-            <th>Bild</th>
-            <th>
-                <img src="../images/cat-m313-d,4440753_1.jpg" width="100">
-            </th>
-            <th>
-                <img src="../images/demag-ac40-cropped-1024x635.jpg" width="100">
-            </th>
-            <th>
-                <img src="../images/Screenshot 2026-03-24 at 15-01-26 Scania Konfigurator.png" width="100">
-            </th>
-        </tr>
-        <tr>
-            <th>Kraft</th>
-            <th>136 hk</th>
-            <th>279 hk</th>
-            <th>500 hk</th>
-        </tr>
-        </tr>
-        <tr>
-            <th>Pris inkl moms</th>
-            <th> 675 000 kr</th>
-            <th> 8 977 504 kr</th>
-            <th> 965 250 kr</th>
-        </tr>
-        <tr>
-            <th>Pris exkl moms</th>
-            <th> 506 250 kr</th>
-            <th>6 733 128 kr</th>
-            <th>723 938 kr</th>
-        </tr>
-
-        </table>
+    <div class="item3">
+        <div class="products-grid">
+            <article class="product-card">
+                <h2>CAT M313D</h2>
+                <img src="../images/cat-m313-d,4440753_1.jpg" alt="CAT M313D grävmaskin">
+                <p>Kraft: 136 hk</p>
+                <p>Pris inkl moms: 675 000 kr</p>
+                <p>Pris exkl moms: 506 250 kr</p>
+            </article>
+            <article class="product-card">
+                <h2>AC 40 CITY</h2>
+                <img src="../images/demag-ac40-cropped-1024x635.jpg" alt="AC 40 CITY mobilkran">
+                <p>Kraft: 279 hk</p>
+                <p>Pris inkl moms: 8 977 504 kr</p>
+                <p>Pris exkl moms: 6 733 128 kr</p>
+            </article>
+            <article class="product-card">
+                <h2>R 500 A6x6HZ</h2>
+                <img src="../images/Screenshot 2026-03-24 at 15-01-26 Scania Konfigurator.png" alt="R 500 A6x6HZ lastbil">
+                <p>Kraft: 500 hk</p>
+                <p>Pris inkl moms: 965 250 kr</p>
+                <p>Pris exkl moms: 723 938 kr</p>
+            </article>
+        </div>
     </div>
-    <br><br><br>
-   <footer>
-           <div class="footer-box">
+    <div class="item4">
+        <h2>Tips</h2>
+        <p>Veckohyra ger rabatt pa transport.</p>
+        <p>Alla maskiner levereras servade och tankade.</p>
+        <a href="contactus.html">Begar offert</a>
+    </div>
+   <div class="item5">
+       <div class="footer-box">
             <p>Skrot och Korn AB, 2026</p>
-           <iframe src="contactus.html" scrolling="no" width="486" height="142" frameborder="0"></iframe>
+           <iframe src="contactus.html" scrolling="no" frameborder="0"></iframe>
        </div>
-   </footer>
+   </div>
 
 </body>
 </html>
