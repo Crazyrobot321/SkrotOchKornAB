@@ -5,7 +5,7 @@
 body {
     margin: 0;
     padding: 16px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     background: #e6edf2;
     color: #1f2a33;
     display: grid;
